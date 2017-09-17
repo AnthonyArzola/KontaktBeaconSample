@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1C12081F66498500DDED41 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1C12071F66498500DDED41 /* Icon-60@2x.png */; };
+		3E1C120A1F665B5F00DDED41 /* BeaconCard72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1C12091F665B5F00DDED41 /* BeaconCard72x72.png */; };
+		3E1C120F1F665C7000DDED41 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C120E1F665C7000DDED41 /* Beacon.swift */; };
+		3E1C12111F665C9700DDED41 /* BeaconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1C12101F665C9700DDED41 /* BeaconCell.swift */; };
+		3E382B671F6E3E6C003C360C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E382B661F6E3E6C003C360C /* AppDelegate.swift */; };
+		3E382B691F6E3E89003C360C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E382B681F6E3E89003C360C /* Info.plist */; };
+		3E382B6B1F6E3EA0003C360C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E382B6A1F6E3EA0003C360C /* Assets.xcassets */; };
+		3E5336371F6A49F100F601FB /* BeaconTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5336361F6A49F100F601FB /* BeaconTableViewController.swift */; };
+		3E7422A11F65076800866252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E74229F1F65076800866252 /* Main.storyboard */; };
+		3E7422A61F65076800866252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7422A41F65076800866252 /* LaunchScreen.storyboard */; };
+		F9C8460CF23AD3C81A426B19 /* Pods_KontaktBeaconSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20DD64C60EBA2FD96063966E /* Pods_KontaktBeaconSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20DD64C60EBA2FD96063966E /* Pods_KontaktBeaconSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KontaktBeaconSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1C12071F66498500DDED41 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Images/Icon-60@2x.png"; sourceTree = "<group>"; };
+		3E1C12091F665B5F00DDED41 /* BeaconCard72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BeaconCard72x72.png; path = Images/BeaconCard72x72.png; sourceTree = "<group>"; };
+		3E1C120E1F665C7000DDED41 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Beacon.swift; path = Models/Beacon.swift; sourceTree = "<group>"; };
+		3E1C12101F665C9700DDED41 /* BeaconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeaconCell.swift; path = Cells/BeaconCell.swift; sourceTree = "<group>"; };
+		3E382B661F6E3E6C003C360C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E382B681F6E3E89003C360C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E382B6A1F6E3EA0003C360C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E5336361F6A49F100F601FB /* BeaconTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeaconTableViewController.swift; path = ViewControllers/BeaconTableViewController.swift; sourceTree = "<group>"; };
+		3E7422981F65076800866252 /* KontaktBeaconSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KontaktBeaconSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7422A01F65076800866252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E7422A51F65076800866252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90B05B831397004004018803 /* Pods-KontaktBeaconSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KontaktBeaconSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KontaktBeaconSample/Pods-KontaktBeaconSample.release.xcconfig"; sourceTree = "<group>"; };
+		C4AE2714C0E8BCB3081322BE /* Pods-KontaktBeaconSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KontaktBeaconSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KontaktBeaconSample/Pods-KontaktBeaconSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7422951F65076800866252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C8460CF23AD3C81A426B19 /* Pods_KontaktBeaconSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB6C84A6DA7FFF5053C3AD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4AE2714C0E8BCB3081322BE /* Pods-KontaktBeaconSample.debug.xcconfig */,
+				90B05B831397004004018803 /* Pods-KontaktBeaconSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E1C120B1F665BEF00DDED41 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E1C12101F665C9700DDED41 /* BeaconCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3E74228F1F65076800866252 = {
+			isa = PBXGroup;
+			children = (
+				3E74229A1F65076800866252 /* KontaktBeaconSample */,
+				3E7422991F65076800866252 /* Products */,
+				2AB6C84A6DA7FFF5053C3AD8 /* Pods */,
+				D3D43349C26876E11AFE86BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7422991F65076800866252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E7422981F65076800866252 /* KontaktBeaconSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E74229A1F65076800866252 /* KontaktBeaconSample */ = {
+			isa = PBXGroup;
+			children = (
+				3E382B661F6E3E6C003C360C /* AppDelegate.swift */,
+				3E382B6A1F6E3EA0003C360C /* Assets.xcassets */,
+				3E1C120B1F665BEF00DDED41 /* Cells */,
+				3E7422B21F66462B00866252 /* Images */,
+				3E382B681F6E3E89003C360C /* Info.plist */,
+				3E7422AF1F65078900866252 /* Models */,
+				3E7422AE1F65077C00866252 /* Storyboards */,
+				3E7422AD1F65076E00866252 /* ViewControllers */,
+			);
+			path = KontaktBeaconSample;
+			sourceTree = "<group>";
+		};
+		3E7422AD1F65076E00866252 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E5336361F6A49F100F601FB /* BeaconTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3E7422AE1F65077C00866252 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3E7422A41F65076800866252 /* LaunchScreen.storyboard */,
+				3E74229F1F65076800866252 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3E7422AF1F65078900866252 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E1C120E1F665C7000DDED41 /* Beacon.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3E7422B21F66462B00866252 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E1C12091F665B5F00DDED41 /* BeaconCard72x72.png */,
+				3E1C12071F66498500DDED41 /* Icon-60@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D3D43349C26876E11AFE86BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20DD64C60EBA2FD96063966E /* Pods_KontaktBeaconSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7422971F65076800866252 /* KontaktBeaconSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7422AA1F65076800866252 /* Build configuration list for PBXNativeTarget "KontaktBeaconSample" */;
+			buildPhases = (
+				5A5B6C221EE15E564CDCA6B8 /* [CP] Check Pods Manifest.lock */,
+				3E7422941F65076800866252 /* Sources */,
+				3E7422951F65076800866252 /* Frameworks */,
+				3E7422961F65076800866252 /* Resources */,
+				95AEFB5022D2A17C9A1BE54E /* [CP] Embed Pods Frameworks */,
+				CDFAC5A50F5E21664B106D20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KontaktBeaconSample;
+			productName = KontaktBeaconSample;
+			productReference = 3E7422981F65076800866252 /* KontaktBeaconSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7422901F65076800866252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anthony Arzola";
+				TargetAttributes = {
+					3E7422971F65076800866252 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E7422931F65076800866252 /* Build configuration list for PBXProject "KontaktBeaconSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E74228F1F65076800866252;
+			productRefGroup = 3E7422991F65076800866252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E7422971F65076800866252 /* KontaktBeaconSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E7422961F65076800866252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7422A61F65076800866252 /* LaunchScreen.storyboard in Resources */,
+				3E382B691F6E3E89003C360C /* Info.plist in Resources */,
+				3E1C120A1F665B5F00DDED41 /* BeaconCard72x72.png in Resources */,
+				3E7422A11F65076800866252 /* Main.storyboard in Resources */,
+				3E382B6B1F6E3EA0003C360C /* Assets.xcassets in Resources */,
+				3E1C12081F66498500DDED41 /* Icon-60@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A5B6C221EE15E564CDCA6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95AEFB5022D2A17C9A1BE54E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KontaktBeaconSample/Pods-KontaktBeaconSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDFAC5A50F5E21664B106D20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KontaktBeaconSample/Pods-KontaktBeaconSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7422941F65076800866252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E382B671F6E3E6C003C360C /* AppDelegate.swift in Sources */,
+				3E5336371F6A49F100F601FB /* BeaconTableViewController.swift in Sources */,
+				3E1C120F1F665C7000DDED41 /* Beacon.swift in Sources */,
+				3E1C12111F665C9700DDED41 /* BeaconCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E74229F1F65076800866252 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7422A01F65076800866252 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E7422A41F65076800866252 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7422A51F65076800866252 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E7422A81F65076800866252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E7422A91F65076800866252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E7422AB1F65076800866252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AE2714C0E8BCB3081322BE /* Pods-KontaktBeaconSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KontaktBeaconSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.KontaktBeaconSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E7422AC1F65076800866252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B05B831397004004018803 /* Pods-KontaktBeaconSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KontaktBeaconSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.KontaktBeaconSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7422931F65076800866252 /* Build configuration list for PBXProject "KontaktBeaconSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7422A81F65076800866252 /* Debug */,
+				3E7422A91F65076800866252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7422AA1F65076800866252 /* Build configuration list for PBXNativeTarget "KontaktBeaconSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7422AB1F65076800866252 /* Debug */,
+				3E7422AC1F65076800866252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7422901F65076800866252 /* Project object */;
+}

@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F38CB54252C1B6A50F989047265F53 /* WhisperFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9955CE9CC70980D1C0773ECBC8130B /* WhisperFactory.swift */; };
+		20A2C7ED86B599D4D2674F83D7518D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		288BBFB158BD631FDE99B55958E3F385 /* ColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E5AD5B5F6C5CAFFBD5E079699AD205 /* ColorList.swift */; };
+		31666D53C52BED1E955AC6157B9880E5 /* Whisper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8E61191FDFDAD87FB37394D070044B /* Whisper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		400B0396D29A4668CC5664264069DFE0 /* ShoutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E514008126CC679497933B0921ED9 /* ShoutFactory.swift */; };
+		5688EA31EB11BA86CB5432838D8488C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		57EC66084ADD9FAF7C8DF4C335805F07 /* FontList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ABC0CD3523F7753E4860654D1A5B2F /* FontList.swift */; };
+		5ED44926DF0BC59204473879027F73C5 /* WhistleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBB26513F3EE18D554194996F29A8B /* WhistleFactory.swift */; };
+		95C849DF25211519ADBDCBADA1733B00 /* Pods-KontaktBeaconSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E733ED20D11D539900E0044F64404 /* Pods-KontaktBeaconSample-dummy.m */; };
+		AA3588DAAE6656BC61DCB7AE18B1A803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C81EB0B59A0E4EEBCFE8BD252F5B090B /* Pods-KontaktBeaconSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CFA52FD3268D674495F334E9CE51A0 /* Pods-KontaktBeaconSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5520138F18CCF2105790C8B0E90639B /* WhisperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29C62F585A50DD9ECE92B93919534F /* WhisperView.swift */; };
+		DE1CB0D3A1CF359B7B8366C17941167F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6759393413612EF2940C316F01FD0A05 /* Config.swift */; };
+		E96E32F8B58C3D1325A6932EA9F857D4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60944A464D9EFE7FE862C1019B3802 /* Message.swift */; };
+		EA5CC0AD3718187C4C56948B854A3E6A /* Showing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F13B22173A4268350BD77A3192DDF /* Showing.swift */; };
+		EE2C1CA9265771FEA92D90335504C6F6 /* Whisper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496EEEF5DE6C2F4589FF9CEC0008712 /* Whisper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220BEE1AB4AEF77C5E22D98BA5C7EC33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F625D1D2CE42A5E22CF656FC2C07FCB;
+			remoteInfo = Whisper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ABC0CD3523F7753E4860654D1A5B2F /* FontList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontList.swift; path = Source/Configuration/FontList.swift; sourceTree = "<group>"; };
+		01ECAC5D4372F7789FD7A56DE7D602B8 /* Pods-KontaktBeaconSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KontaktBeaconSample-resources.sh"; sourceTree = "<group>"; };
+		034C31BFEA3372802282D1457C7AF993 /* Pods-KontaktBeaconSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KontaktBeaconSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0496EEEF5DE6C2F4589FF9CEC0008712 /* Whisper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Whisper-dummy.m"; sourceTree = "<group>"; };
+		053E96973D456031D46E5C0655C28F97 /* Whisper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Whisper.modulemap; sourceTree = "<group>"; };
+		0A8E61191FDFDAD87FB37394D070044B /* Whisper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Whisper-umbrella.h"; sourceTree = "<group>"; };
+		19EB00A1488174966C25C5D1250AA466 /* Pods-KontaktBeaconSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KontaktBeaconSample-frameworks.sh"; sourceTree = "<group>"; };
+		20A4A125FFF3D2C35E6D90BDE09C9845 /* Pods-KontaktBeaconSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KontaktBeaconSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		28CFA52FD3268D674495F334E9CE51A0 /* Pods-KontaktBeaconSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KontaktBeaconSample-umbrella.h"; sourceTree = "<group>"; };
+		3CBBB26513F3EE18D554194996F29A8B /* WhistleFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhistleFactory.swift; path = Source/WhistleFactory.swift; sourceTree = "<group>"; };
+		439ED9986C7B999E5F8FCC4874F7C200 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634E733ED20D11D539900E0044F64404 /* Pods-KontaktBeaconSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KontaktBeaconSample-dummy.m"; sourceTree = "<group>"; };
+		637F3D5936CF8E762AE4214C135C65C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AF1C8274502254D4A29CE53161EA63 /* KontaktSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KontaktSDK.framework; path = Cocoapods/iOS/KontaktSDK.framework; sourceTree = "<group>"; };
+		6759393413612EF2940C316F01FD0A05 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Source/Config.swift; sourceTree = "<group>"; };
+		70BA7FA3875F8FA61D91542A2396287F /* Pods-KontaktBeaconSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KontaktBeaconSample.debug.xcconfig"; sourceTree = "<group>"; };
+		85874894C9892B14E04C0FA667890E21 /* Pods-KontaktBeaconSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KontaktBeaconSample.release.xcconfig"; sourceTree = "<group>"; };
+		8972A12106F28C8699DE3838E5254969 /* Whisper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Whisper.xcconfig; sourceTree = "<group>"; };
+		921E514008126CC679497933B0921ED9 /* ShoutFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShoutFactory.swift; path = Source/ShoutFactory.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E5AD5B5F6C5CAFFBD5E079699AD205 /* ColorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorList.swift; path = Source/Configuration/ColorList.swift; sourceTree = "<group>"; };
+		AF51A61004AA20779A3FE30F19514731 /* Pods-KontaktBeaconSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KontaktBeaconSample.modulemap"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C898B2ADFB09F06FE7798F656E65E2E4 /* Pods_KontaktBeaconSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KontaktBeaconSample.framework; path = "Pods-KontaktBeaconSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC60944A464D9EFE7FE862C1019B3802 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Source/Message.swift; sourceTree = "<group>"; };
+		D06064F46F3A547ADF1486C1E8B55F35 /* Whisper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Whisper.framework; path = Whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EA4F13B22173A4268350BD77A3192DDF /* Showing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Showing.swift; path = Source/Showing.swift; sourceTree = "<group>"; };
+		ED9955CE9CC70980D1C0773ECBC8130B /* WhisperFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhisperFactory.swift; path = Source/WhisperFactory.swift; sourceTree = "<group>"; };
+		F3ED6095AC8B6F5771EE2D8E2A187B21 /* Whisper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Whisper-prefix.pch"; sourceTree = "<group>"; };
+		FF29C62F585A50DD9ECE92B93919534F /* WhisperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhisperView.swift; path = Source/WhisperView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FC25C9156589F278267DDE69FFD96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3588DAAE6656BC61DCB7AE18B1A803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD58567CF6449D06477C0E0E5DC0B22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A2C7ED86B599D4D2674F83D7518D9D /* Foundation.framework in Frameworks */,
+				5688EA31EB11BA86CB5432838D8488C7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A0A8860D1248D8F40A3DC51108C9DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3970890245A1DA12C7F0E75F24C17046 /* Pods-KontaktBeaconSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35660F23CA686D38834144FC38448D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63AF1C8274502254D4A29CE53161EA63 /* KontaktSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3970890245A1DA12C7F0E75F24C17046 /* Pods-KontaktBeaconSample */ = {
+			isa = PBXGroup;
+			children = (
+				637F3D5936CF8E762AE4214C135C65C4 /* Info.plist */,
+				AF51A61004AA20779A3FE30F19514731 /* Pods-KontaktBeaconSample.modulemap */,
+				034C31BFEA3372802282D1457C7AF993 /* Pods-KontaktBeaconSample-acknowledgements.markdown */,
+				20A4A125FFF3D2C35E6D90BDE09C9845 /* Pods-KontaktBeaconSample-acknowledgements.plist */,
+				634E733ED20D11D539900E0044F64404 /* Pods-KontaktBeaconSample-dummy.m */,
+				19EB00A1488174966C25C5D1250AA466 /* Pods-KontaktBeaconSample-frameworks.sh */,
+				01ECAC5D4372F7789FD7A56DE7D602B8 /* Pods-KontaktBeaconSample-resources.sh */,
+				28CFA52FD3268D674495F334E9CE51A0 /* Pods-KontaktBeaconSample-umbrella.h */,
+				70BA7FA3875F8FA61D91542A2396287F /* Pods-KontaktBeaconSample.debug.xcconfig */,
+				85874894C9892B14E04C0FA667890E21 /* Pods-KontaktBeaconSample.release.xcconfig */,
+			);
+			name = "Pods-KontaktBeaconSample";
+			path = "Target Support Files/Pods-KontaktBeaconSample";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63EF8987EADC5FE42F2183D05C525057 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF8CE4857BEDECAC79094A8B5B9DA5 /* KontaktSDK */,
+				97C21C319A4230B7E777489026C03489 /* Whisper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				63EF8987EADC5FE42F2183D05C525057 /* Pods */,
+				D02AC1878A2F621B1B9DE0425F1600E4 /* Products */,
+				12A0A8860D1248D8F40A3DC51108C9DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97C21C319A4230B7E777489026C03489 /* Whisper */ = {
+			isa = PBXGroup;
+			children = (
+				A6E5AD5B5F6C5CAFFBD5E079699AD205 /* ColorList.swift */,
+				6759393413612EF2940C316F01FD0A05 /* Config.swift */,
+				01ABC0CD3523F7753E4860654D1A5B2F /* FontList.swift */,
+				CC60944A464D9EFE7FE862C1019B3802 /* Message.swift */,
+				921E514008126CC679497933B0921ED9 /* ShoutFactory.swift */,
+				EA4F13B22173A4268350BD77A3192DDF /* Showing.swift */,
+				ED9955CE9CC70980D1C0773ECBC8130B /* WhisperFactory.swift */,
+				FF29C62F585A50DD9ECE92B93919534F /* WhisperView.swift */,
+				3CBBB26513F3EE18D554194996F29A8B /* WhistleFactory.swift */,
+				C02E3372C3C04DAE3B09E5DA70E8A80A /* Support Files */,
+			);
+			name = Whisper;
+			path = Whisper;
+			sourceTree = "<group>";
+		};
+		A2EF8CE4857BEDECAC79094A8B5B9DA5 /* KontaktSDK */ = {
+			isa = PBXGroup;
+			children = (
+				35660F23CA686D38834144FC38448D97 /* Frameworks */,
+			);
+			name = KontaktSDK;
+			path = KontaktSDK;
+			sourceTree = "<group>";
+		};
+		C02E3372C3C04DAE3B09E5DA70E8A80A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				439ED9986C7B999E5F8FCC4874F7C200 /* Info.plist */,
+				053E96973D456031D46E5C0655C28F97 /* Whisper.modulemap */,
+				8972A12106F28C8699DE3838E5254969 /* Whisper.xcconfig */,
+				0496EEEF5DE6C2F4589FF9CEC0008712 /* Whisper-dummy.m */,
+				F3ED6095AC8B6F5771EE2D8E2A187B21 /* Whisper-prefix.pch */,
+				0A8E61191FDFDAD87FB37394D070044B /* Whisper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Whisper";
+			sourceTree = "<group>";
+		};
+		D02AC1878A2F621B1B9DE0425F1600E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C898B2ADFB09F06FE7798F656E65E2E4 /* Pods_KontaktBeaconSample.framework */,
+				D06064F46F3A547ADF1486C1E8B55F35 /* Whisper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DA1D8AEACA666D6570715080D5A4685 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81EB0B59A0E4EEBCFE8BD252F5B090B /* Pods-KontaktBeaconSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE342EC6A53543ADB7F37F1C93155029 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31666D53C52BED1E955AC6157B9880E5 /* Whisper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F625D1D2CE42A5E22CF656FC2C07FCB /* Whisper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E564861C255022D52F64E44F956F26 /* Build configuration list for PBXNativeTarget "Whisper" */;
+			buildPhases = (
+				5D8B1183078530C6C3FC0D132C0F8045 /* Sources */,
+				DD58567CF6449D06477C0E0E5DC0B22F /* Frameworks */,
+				EE342EC6A53543ADB7F37F1C93155029 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whisper;
+			productName = Whisper;
+			productReference = D06064F46F3A547ADF1486C1E8B55F35 /* Whisper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1DFFCE1B1B9108323BBDDD0693D0905 /* Pods-KontaktBeaconSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B501039F683D0B12A6209C4A929FDC /* Build configuration list for PBXNativeTarget "Pods-KontaktBeaconSample" */;
+			buildPhases = (
+				FEE46936D61212844B0A13BC14183442 /* Sources */,
+				13FC25C9156589F278267DDE69FFD96C /* Frameworks */,
+				4DA1D8AEACA666D6570715080D5A4685 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CE05433344E0276297A087CD984D23 /* PBXTargetDependency */,
+			);
+			name = "Pods-KontaktBeaconSample";
+			productName = "Pods-KontaktBeaconSample";
+			productReference = C898B2ADFB09F06FE7798F656E65E2E4 /* Pods_KontaktBeaconSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D02AC1878A2F621B1B9DE0425F1600E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1DFFCE1B1B9108323BBDDD0693D0905 /* Pods-KontaktBeaconSample */,
+				3F625D1D2CE42A5E22CF656FC2C07FCB /* Whisper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D8B1183078530C6C3FC0D132C0F8045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288BBFB158BD631FDE99B55958E3F385 /* ColorList.swift in Sources */,
+				DE1CB0D3A1CF359B7B8366C17941167F /* Config.swift in Sources */,
+				57EC66084ADD9FAF7C8DF4C335805F07 /* FontList.swift in Sources */,
+				E96E32F8B58C3D1325A6932EA9F857D4 /* Message.swift in Sources */,
+				400B0396D29A4668CC5664264069DFE0 /* ShoutFactory.swift in Sources */,
+				EA5CC0AD3718187C4C56948B854A3E6A /* Showing.swift in Sources */,
+				EE2C1CA9265771FEA92D90335504C6F6 /* Whisper-dummy.m in Sources */,
+				08F38CB54252C1B6A50F989047265F53 /* WhisperFactory.swift in Sources */,
+				D5520138F18CCF2105790C8B0E90639B /* WhisperView.swift in Sources */,
+				5ED44926DF0BC59204473879027F73C5 /* WhistleFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE46936D61212844B0A13BC14183442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C849DF25211519ADBDCBADA1733B00 /* Pods-KontaktBeaconSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38CE05433344E0276297A087CD984D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Whisper;
+			target = 3F625D1D2CE42A5E22CF656FC2C07FCB /* Whisper */;
+			targetProxy = 220BEE1AB4AEF77C5E22D98BA5C7EC33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20FD9CD6F02990ECBBD8A18AD3B0A87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8972A12106F28C8699DE3838E5254969 /* Whisper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Whisper/Whisper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Whisper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Whisper/Whisper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Whisper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F4B8E95CC1FE44ABE42E4B3AD3078E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8972A12106F28C8699DE3838E5254969 /* Whisper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Whisper/Whisper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Whisper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Whisper/Whisper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Whisper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B8A4CFE48A299D16B6D3E6B9FF1AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BA7FA3875F8FA61D91542A2396287F /* Pods-KontaktBeaconSample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KontaktBeaconSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KontaktBeaconSample/Pods-KontaktBeaconSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KontaktBeaconSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8F5633881D077682B2802B07D25328A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85874894C9892B14E04C0FA667890E21 /* Pods-KontaktBeaconSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KontaktBeaconSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KontaktBeaconSample/Pods-KontaktBeaconSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KontaktBeaconSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B501039F683D0B12A6209C4A929FDC /* Build configuration list for PBXNativeTarget "Pods-KontaktBeaconSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8A4CFE48A299D16B6D3E6B9FF1AE55 /* Debug */,
+				A8F5633881D077682B2802B07D25328A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E564861C255022D52F64E44F956F26 /* Build configuration list for PBXNativeTarget "Whisper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FD9CD6F02990ECBBD8A18AD3B0A87E /* Debug */,
+				7F4B8E95CC1FE44ABE42E4B3AD3078E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

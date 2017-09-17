@@ -1,0 +1,15 @@
+PODS:
+  - KontaktSDK (1.4.4)
+  - Whisper (5.0.0)
+
+DEPENDENCIES:
+  - KontaktSDK (~> 1.4.2)
+  - Whisper (~> 5.0.0)
+
+SPEC CHECKSUMS:
+  KontaktSDK: 4f0a592bf9b27ebc5ac29cc820f4ccd88ebd65bf
+  Whisper: 051f25e704bf8992641ffd28b20d5682ddc5f5d3
+
+PODFILE CHECKSUM: e5b96da3ee32659a5985c56174173f5091690340
+
+COCOAPODS: 1.2.1
