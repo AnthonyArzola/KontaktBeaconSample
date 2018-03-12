@@ -3,7 +3,7 @@ Kontakt Beacon Sample
 
 ![Kontakt Card Beacon](./Screenshots/KontaktCardBeacon.jpg)
 
-Swift sample app that detects [Kontakt](https://kontakt.io/) beacons. App was tested with Kontakt card beacons using Kontakt SDK.
+Sample Swift app that detects [Kontakt](https://kontakt.io/) beacons. App was tested with Kontakt card beacons using Kontakt SDK.
 
 ## Getting Started
 
@@ -22,6 +22,4 @@ Swift sample app that detects [Kontakt](https://kontakt.io/) beacons. App was te
 
 ![Sample 1](./Screenshots/Sample1.png)
 
-![Sample 2](./Screenshots/Sample2.png)
-
-![Sample 3](./Screenshots/Sample3.png)
+![Sample 2](./Screenshots/Sample2.png) ![Sample 3](./Screenshots/Sample3.png)
