@@ -7,7 +7,7 @@ Sample Swift app that detects [Kontakt](https://kontakt.io/) beacons. App was te
 
 ## Getting Started
 
-1. Open workspace, change `COGNATIVE_SERVICE_API_KEY` in AnnotatedPictureViewController.swift
+1. Open workspace, change `ProximityUuid` in BeaconTableViewController.swift
 
 2. Open project file and set Team under Signing
 
