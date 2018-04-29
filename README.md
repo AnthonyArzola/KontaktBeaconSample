@@ -18,6 +18,10 @@ Sample Swift app that detects [Kontakt](https://kontakt.io/) beacons. App was te
 * [KontaktSDK](https://cocoapods.org/pods/KontaktSDK) ~> 1.4.2
 * [Whisper](https://cocoapods.org/pods/Whisper) ~> 5.0.0
 
+## Leverages
+
+* Kontakt SDK which leverages Core Location
+
 ## App Screenshots
 
 ![Sample 1](./Screenshots/Sample1.png)
